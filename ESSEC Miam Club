@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+
+
+<html>
+	<head>
+		<title>My Project</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="https://kit.fontawesome.com/56bc299bf8.js" crossorigin="anonymous"></script>
+	</head>
+
+	<body>
+		<div class="banner">
+			<div class="container">
+				<h1 style="font-family: 'Lora';">Essec MIAM Club</h1>
+				<h2 id="header-adjustement">Come and join our circle of Food and Beverage industry enthusiasts!</h2>
+				<a href="#apply-section" class="btn-blue">Join Now</a>
+			</div>
+		</div>
+
+
+		<div class="container" style="color: #483434;">
+			<div class="Information-card" style="background: #7DE6E9;
+	    			padding: 60px;
+	    			box-shadow: 0px 10px 30px rgb(0 0 0 / 30%);
+	    			border-radius: 5px;
+	    			text-align: center;
+	   				width: 1300px;
+	   				height: 1400px;
+	   				margin-top: 40px;">
+				<h1>What you should know!</h1>
+
+				<h2 style="text-align: center; margin-top: 15px;">Our history</h2>
+				<p style="margin: 15px;">First created in 2021, it used to be called the "Foodies Club" but was later changed to ESSEC Miam Club. With "Miam" being the French word/expression for something that is delicious or yummy.</p>
+
+				<h2 style="text-align: center; margin-top: 30px;">The Team</h2>
+
+				<div class="avatar">
+					<img src="images/Lucas.png" alt="President" style="margin-left: 15px;">
+						<p style="margin-right: 43px;">Lucas Chia - President</p>
+					<img src="images/Jiayin.png" alt="Vice President" style="margin-left: 15px;">
+						<p style="margin-right: 43px;"> Jiayin Cai - Vice President</p>
+					<img src="images/LiuYi.png" alt="Finance" sstyle="margin-left: 15px;">
+						<p style="margin-right: 43px;"> Liu Yi - Finance</p>
+					<img src="Images/Hiba.png" alt="Marketing" style="margin-left: 15px;">
+						<p style="margin-right: 43px;"> Hiba - Marketing</p>
+				</div>
+			</div>
+			
+			<h2 id="margin-adjustement" style="text-align: center;margin-top: 100px;">❗ESSEC MIAM EVENTS❗</h2>
+
+			<div class="cards">
+				<div class="card">
+					<img src="CNY-goodies.jpeg" alt="Chinese New Year"> 
+					<h3>Chinese New Year</h3>
+				</div>
+
+				<div class="card">
+					<img src="MiamIG" alt="MiamIG"> 
+					<h3>Instagram: Miam Daily</h3>
+				</div>
+
+				<div class="card">
+					<img src="images/coming-soon.jpg" alt="Essec Climbing Event"> 
+					<h3 id="text-adjustement">Ramadan</h3>
+						
+				</div>
+			</div>
+		</div>
+
+		<div id="apply-section">
+			<div data-tf-widget="Xvy4bJqe" data-tf-opacity="0" data-tf-iframe-props="title=My typeform" data-tf-medium="snippet" style="width:100%;height:500px;"></div><script src="//embed.typeform.com/next/embed.js"></script>		
+		</div>
+
+		<h2 style="text-align:center;">Follow us on Instagram</h2>
+		<ul class="list-horizontal" style="text-align: center;">
+				<li>
+					<a href="https://www.instagram.com/essec_climbing/" target="_blank">
+						<i class="fa-brands fa-instagram fa"></i>
+					</a>
+				</li>
+	</body>
+</html>
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Roboto+Mono&display=swap');
+
+@import url("components/container.css");
+
+@import url("components/avatar.css");
+
+@import url("components/button.css");
+
+@import url("components/banner.css");
+
+@import url("components/card.css");
+
+body {
+	font-family: 'lora', serif;
+	font-size: 18px;
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+}
+
+#margin-adjustement {
+	margin-top: 35px;
+}
+
+#margin-adjustement2 {
+	margin-bottom: 30px;
+}
+
+#text-adjustement {
+	font-size: 15px;
+}
+
+#header-adjustement {
+	font-size: 25px;
+}
+
+.information-card {
+	background: #E4D1B9;
+	padding: 100px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+	border-radius: 4px;
+	text-align: center;
+}
+
+body {
+	background: #FFEDDB;
+	colour: rgd(50, 50, 50);
+}
+
+.list-horizontal li {
+	display: inline;
+	font-size: 50px;
+}
+.list-horizontal i:hover {
+	color: #BE8C63;
+
+
+
+.container
+
+.container {
+	width: 800px;
+	margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
